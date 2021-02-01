@@ -3,6 +3,8 @@ Unofficial API for eToro, wrapping https://github.com/ok24601/etoro-api into a d
 
 Found on Dockerhub at: https://hub.docker.com/repository/docker/guestros/etoroapi
 
+Created with the help of ashalliants https://github.com/ok24601/etoro-api/issues/15
+
 ## RUN
 
 ### docker run
