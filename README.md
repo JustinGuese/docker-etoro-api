@@ -1,5 +1,5 @@
 
-Unofficial API for eToro, built on top of https://github.com/ok24601/etoro-api
+Unofficial API for eToro, wrapping https://github.com/ok24601/etoro-api into a docker image.
 
 ## RUN
 
@@ -11,5 +11,5 @@ or
 
 ### docker compose
 
-1. edit .env with user and password for etoro
+1. edit .env-example with user and password for etoro and rename it to ".env"
 2. docker-compose up
