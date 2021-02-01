@@ -1,0 +1,3 @@
+[submodule "etoro-api"]
+	path = etoro-api
+	url = https://github.com/ok24601/etoro-api

@@ -1,0 +1,9 @@
+version: "3.8"
+services:
+  etoroapi:
+    image: etoroapi
+    build: .
+    env_file:
+      - .env
+    ports: 
+      - 8088:8088
