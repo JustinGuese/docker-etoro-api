@@ -1,6 +1,8 @@
 
 Unofficial API for eToro, wrapping https://github.com/ok24601/etoro-api into a docker image.
 
+Found on Dockerhub at: https://hub.docker.com/repository/docker/guestros/etoroapi
+
 ## RUN
 
 ### docker run
