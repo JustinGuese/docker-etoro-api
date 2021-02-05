@@ -9,7 +9,7 @@ Created with the help of ashalliants https://github.com/ok24601/etoro-api/issues
 
 ### docker run
 
-1. docker run --shm-size=1g -p 8088:8088 -e LOGIN=user -e PASSWORD=ooooooooo -it --rm --name my-etoro-api etoroapi
+1. docker run --shm-size=1g -p 8088:8088 -e LOGIN=user -e PASSWORD=ooooooooo -it --rm --name my-etoro-api guestros/etoroapi
 
 or 
 
