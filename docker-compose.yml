@@ -1,8 +1,8 @@
 version: "3.8"
 services:
   etoroapi:
-    image: etoroapi
-    build: .
+    image: guestros/etoroapi
+    #build: .
     env_file:
       - .env
     ports: 
