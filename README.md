@@ -17,3 +17,14 @@ or
 
 1. edit .env-example with user and password for etoro and rename it to ".env"
 2. docker-compose up
+
+### docker build
+
+If you want to build it yourself:
+
+1. docker build -t etoroapi .
+2. docker run --shm-size=1g -p 8088:8088 -e LOGIN=user -e PASSWORD=ooooooooo -it --rm --name my-etoro-api etoroapi
+
+or 
+
+docker-compose up --build
